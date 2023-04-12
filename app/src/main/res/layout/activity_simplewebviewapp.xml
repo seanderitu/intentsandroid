@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".simplewebviewapp">
+
+    <Button
+        android:id="@+id/absabnk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="88dp"
+        android:text="absa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/kcbbnk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:text="kcb"
+        app:layout_constraintBaseline_toBaselineOf="@+id/cooperativebnk"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/equitybnk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="64dp"
+        android:text="Equity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kcbbnk" />
+
+    <Button
+        android:id="@+id/chasebnk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="52dp"
+        android:text="Chase"
+        app:layout_constraintBottom_toTopOf="@+id/cooperativebnk"
+        app:layout_constraintEnd_toEndOf="@+id/cooperativebnk" />
+
+    <Button
+        android:id="@+id/cooperativebnk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="66dp"
+        android:text="cooperative"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cbabnk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="58dp"
+        android:text="cba"
+        app:layout_constraintStart_toStartOf="@+id/cooperativebnk"
+        app:layout_constraintTop_toBottomOf="@+id/cooperativebnk" />
+</androidx.constraintlayout.widget.ConstraintLayout>
